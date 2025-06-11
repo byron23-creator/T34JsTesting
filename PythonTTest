@@ -34,7 +34,6 @@ class Media {
   }
 
   addRating(rating) {
-    // Puedes añadir validación aquí si quieres, por ejemplo:
     // if (rating >= 1 && rating <= 5) {
       this._ratings.push(rating);
     // } else {
